@@ -1384,7 +1384,7 @@ declare namespace ShopifyBuy {
     }
 
     interface ProductVariant extends Node, HasMetafields {
-        availableForSale: boolean;
+        available: boolean;
         barcode: string;
         compareAtPrice: MoneyV2;
         currentlyNotInStock: boolean;
